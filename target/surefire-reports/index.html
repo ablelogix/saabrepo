@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AddEmpSuite">
+              <span class="suite-name border-failed">AddEmpSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AddEmpSuite">
+                    <span>E:\AbleLogix\webdrivercode\mavenframework\MavenDataDriven\AddEmpSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AddEmpSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AddEmpSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AddEmpSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AddEmpSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AddEmpSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AddEmpSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AddEmpSuite" class="hide-methods failed suite-AddEmpSuite"> (hide)</a> <!-- hide-methods failed suite-AddEmpSuite -->
+                      <a href="#" panel-name="suite-AddEmpSuite" class="show-methods failed suite-AddEmpSuite"> (show)</a> <!-- show-methods failed suite-AddEmpSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-AddEmpSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AddEmpSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty" hash-for-method="fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null)">fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AddEmpSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AddEmpSuite" class="hide-methods skipped suite-AddEmpSuite"> (hide)</a> <!-- hide-methods skipped suite-AddEmpSuite -->
+                      <a href="#" panel-name="suite-AddEmpSuite" class="show-methods skipped suite-AddEmpSuite"> (show)</a> <!-- show-methods skipped suite-AddEmpSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-AddEmpSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AddEmpSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty" hash-for-method="fnameEmpty(3, admin, admin, rafi, shaik, -- Select --, Y, null)">fnameEmpty(3, admin, admin, rafi, shaik, -- Select --, Y, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AddEmpSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AddEmpSuite" class="hide-methods passed suite-AddEmpSuite"> (hide)</a> <!-- hide-methods passed suite-AddEmpSuite -->
+                      <a href="#" panel-name="suite-AddEmpSuite" class="show-methods passed suite-AddEmpSuite"> (show)</a> <!-- show-methods passed suite-AddEmpSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AddEmpSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AddEmpSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty" hash-for-method="fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null)">fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AddEmpSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LoginSuite">
+              <span class="suite-name border-skipped">LoginSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LoginSuite">
+                    <span>E:\AbleLogix\webdrivercode\mavenframework\MavenDataDriven\LoginSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LoginSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LoginSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LoginSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LoginSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LoginSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LoginSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  2 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods skipped suite-LoginSuite"> (hide)</a> <!-- hide-methods skipped suite-LoginSuite -->
+                      <a href="#" panel-name="suite-LoginSuite" class="show-methods skipped suite-LoginSuite"> (show)</a> <!-- show-methods skipped suite-LoginSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-LoginSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin" hash-for-method="testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData)">testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin" hash-for-method="testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData)">testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LoginSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods passed suite-LoginSuite"> (hide)</a> <!-- hide-methods passed suite-LoginSuite -->
+                      <a href="#" panel-name="suite-LoginSuite" class="show-methods passed suite-LoginSuite"> (show)</a> <!-- show-methods passed suite-LoginSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-LoginSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin" hash-for-method="testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData)">testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin" hash-for-method="testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData)">testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser" hash-for-method="testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)">testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser" hash-for-method="testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)">testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LoginSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRM" class="panel OrangeHRM">
+        </div> <!-- panel OrangeHRM -->
+        <div panel-name="suite-AddEmpSuite" class="panel AddEmpSuite">
+          <div class="suite-AddEmpSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null)">
+                  </a> <!-- fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null) -->
+                  <span class="method-name">fnameEmpty</span>
+                  <span class="parameters">(1, admin, admin,  , shaik, HQ - CA, USA, Y, <NULL>)</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [true] but found [false]
+	at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.fnameEmpty(TestFnameEmpty.java:29)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 26 stack frames<br/> java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.fnameEmpty(TestFnameEmpty.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertTrue(Assert.java:42)<br>org.testng.Assert.assertTrue(Assert.java:52)<br>com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.fnameEmpty(TestFnameEmpty.java:29)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AddEmpSuite-class-failed -->
+          <div class="suite-AddEmpSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnameEmpty(3, admin, admin, rafi, shaik, -- Select --, Y, null)">
+                  </a> <!-- fnameEmpty(3, admin, admin, rafi, shaik, - Select -, Y, null) -->
+                  <span class="method-name">fnameEmpty</span>
+                  <span class="parameters">(3, admin, admin, rafi, shaik, -- Select --, Y, <NULL>)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AddEmpSuite-class-skipped -->
+          <div class="suite-AddEmpSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null)">
+                  </a> <!-- fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null) -->
+                  <span class="method-name">fnameEmpty</span>
+                  <span class="parameters">(2, admin, admin, rafi,   , HQ - CA, USA, Y, <NULL>)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AddEmpSuite-class-passed -->
+        </div> <!-- panel AddEmpSuite -->
+        <div panel-name="suite-LoginSuite" class="panel LoginSuite">
+          <div class="suite-LoginSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData)">
+                  </a> <!-- testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(4, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData)">
+                  </a> <!-- testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(3, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-skipped -->
+          <div class="suite-LoginSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData)">
+                  </a> <!-- testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(2, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData)">
+                  </a> <!-- testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(1, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-passed -->
+          <div class="suite-LoginSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)">
+                  </a> <!-- testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)">
+                  </a> <!-- testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-passed -->
+        </div> <!-- panel LoginSuite -->
+        <div panel-name="test-xml-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\AbleLogix\webdrivercode\mavenframework\MavenDataDriven\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;OrangeHRM&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./LoginSuite.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./AddEmpSuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRM --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\AbleLogix\webdrivercode\mavenframework\MavenDataDriven\AddEmpSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;AddEmpSuite&quot;&gt;
+  &lt;test name=&quot;TestFnameEmpty&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestFnameEmpty --&gt;
+&lt;/suite&gt; &lt;!-- AddEmpSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\AbleLogix\webdrivercode\mavenframework\MavenDataDriven\LoginSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;LoginSuite&quot;&gt;
+  &lt;test name=&quot;LoginSuiteAdmin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginSuiteAdmin --&gt;
+  &lt;test name=&quot;LoginSuiteESSUser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginSuiteESSUser --&gt;
+&lt;/suite&gt; &lt;!-- LoginSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AddEmpSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestFnameEmpty (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LoginSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginSuiteAdmin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginSuiteESSUser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AddEmpSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LoginSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRM');
+function tableData_OrangeHRM() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['OrangeHRM']= { tableData: data, tableDiv: 'times-div-OrangeHRM'}
+return data;
+}
+              </script>
+              <div id="times-div-OrangeHRM">
+              </div> <!-- times-div-OrangeHRM -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AddEmpSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AddEmpSuite');
+function tableData_AddEmpSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fnameEmpty')
+data.setCell(0, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty')
+data.setCell(0, 3, 74167);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fnameEmpty')
+data.setCell(1, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty')
+data.setCell(1, 3, 45796);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fnameEmpty')
+data.setCell(2, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty')
+data.setCell(2, 3, 2);
+window.suiteTableData['AddEmpSuite']= { tableData: data, tableDiv: 'times-div-AddEmpSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-AddEmpSuite">
+              </div> <!-- times-div-AddEmpSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LoginSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LoginSuite');
+function tableData_LoginSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoginAdmin')
+data.setCell(0, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin')
+data.setCell(0, 3, 18522);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginAdmin')
+data.setCell(1, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin')
+data.setCell(1, 3, 15858);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginAdmin')
+data.setCell(2, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser')
+data.setCell(2, 3, 12551);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginAdmin')
+data.setCell(3, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser')
+data.setCell(3, 3, 10650);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginAdmin')
+data.setCell(4, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLoginAdmin')
+data.setCell(5, 2, 'com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin')
+data.setCell(5, 3, 2);
+window.suiteTableData['LoginSuite']= { tableData: data, tableDiv: 'times-div-LoginSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-LoginSuite">
+              </div> <!-- times-div-LoginSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AddEmpSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LoginSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetup</span>
+                <span class="method-start">4976 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">5557 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">60480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">79003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">80285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">123253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">139112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">139214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">167776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">167783 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetup</span>
+                <span class="method-start">168126 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">168745 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">168919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                <span class="method-start">202793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">215344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">215627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                <span class="method-start">261379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">272030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">272140 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">272181 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">272488 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">272494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">272701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null)</span>
+                <span class="method-start">306323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">352120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">352224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null)</span>
+                <span class="method-start">392553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">466721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">466780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnameEmpty(3, admin, admin, rafi, shaik, -- Select --, Y, null)</span>
+                <span class="method-start">505338 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AddEmpSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetup</span>
+                <span class="method-start">4976 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">5557 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">60480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">79003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">80285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">123253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">139112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">139214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">167776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">167783 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetup</span>
+                <span class="method-start">168126 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">168745 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">168919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                <span class="method-start">202793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">215344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">215627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                <span class="method-start">261379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">272030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">272140 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">272181 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">272488 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">272494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">272701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null)</span>
+                <span class="method-start">306323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">352120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">352224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null)</span>
+                <span class="method-start">392553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">466721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">466780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnameEmpty(3, admin, admin, rafi, shaik, -- Select --, Y, null)</span>
+                <span class="method-start">505338 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LoginSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetup</span>
+                <span class="method-start">4976 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">5557 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(1, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">60480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">79003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">80285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(2, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">123253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">139112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">139214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(3, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">167776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(4, admin, admin, Welcome Admin, Y, Passed TestData)</span>
+                <span class="method-start">167783 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetup</span>
+                <span class="method-start">168126 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">168745 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">168919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(1, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                <span class="method-start">202793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">215344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">215627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(2, linda.anderson, linda.anderson, Welcome Linda, Y, Passed TestData)</span>
+                <span class="method-start">261379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">272030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">272140 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">272181 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">272488 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">272494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">272701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fnameEmpty(1, admin, admin,  , shaik, HQ - CA, USA, Y, null)</span>
+                <span class="method-start">306323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">352120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">352224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnameEmpty(2, admin, admin, rafi,   , HQ - CA, USA, Y, null)</span>
+                <span class="method-start">392553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">466721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">466780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnameEmpty(3, admin, admin, rafi, shaik, -- Select --, Y, null)</span>
+                <span class="method-start">505338 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">OrangeHRM</th></tr>
+<tr><th colspan="7">AddEmpSuite</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TestFnameEmpty</td><td class="numi">3</td><td class="numi">1</td><td class="numi_attn">3</td><td class="numi_attn">3</td><td class="numi">232.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">LoginSuite</th></tr>
+<tr><td style="text-align:left;padding-right:2em">LoginSuiteAdmin</td><td class="numi">4</td><td class="numi">2</td><td class="numi_attn">4</td><td class="numi">0</td><td class="numi">162.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">LoginSuiteESSUser</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">104.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">9</td><td class="numi">5</td><td class="numi_attn">7</td><td class="numi_attn">3</td><td class="numi">500.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">OrangeHRM</th></tr>
+<tr><th colspan="4">AddEmpSuite</th></tr>
+<tr><th colspan="4">TestFnameEmpty &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="3">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</td><td><a href="#m1"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462441265590</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462441265590</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m3"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462441265590</td><td class="numi">0</td></tr>
+<tr><th colspan="4">TestFnameEmpty &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</td><td><a href="#m4"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441105133</td><td class="numi">45796</td></tr><tr class="failedodd"><td><a href="#m5"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441105133</td><td class="numi">45796</td></tr><tr class="failedodd"><td><a href="#m6"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441105133</td><td class="numi">45796</td></tr>
+<tr><th colspan="4">TestFnameEmpty &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</td><td><a href="#m7"><b>afterMethod</b>  </a></td><td class="numi">1</td><td>1462441304151</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m8"><b>afterMethod</b>  </a></td><td class="numi">1</td><td>1462441304151</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m9"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1462441304153</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m10"><b>afterClass</b>  </a></td><td class="numi">1</td><td>1462441304152</td><td class="numi">0</td></tr>
+<tr><th colspan="4">TestFnameEmpty &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</td><td><a href="#m11"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441304148</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m12"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441304148</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m13"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441304148</td><td class="numi">2</td></tr>
+<tr><th colspan="4">TestFnameEmpty &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty</td><td><a href="#m14"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441191363</td><td class="numi">74167</td></tr><tr class="passedodd"><td><a href="#m15"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441191363</td><td class="numi">74167</td></tr><tr class="passedodd"><td><a href="#m16"><b>fnameEmpty</b>  </a></td><td class="numi">1</td><td>1462441191363</td><td class="numi">74167</td></tr>
+<tr><th colspan="4">LoginSuite</th></tr>
+<tr><th colspan="4">LoginSuiteAdmin &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="3">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</td><td><a href="#m17"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462440938024</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m18"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462440938024</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m19"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462440938024</td><td class="numi">0</td></tr>
+<tr><th colspan="4">LoginSuiteAdmin &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="6">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</td><td><a href="#m20"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462440966592</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m21"><b>afterMethod</b>  </a></td><td class="numi">2</td><td>1462440966590</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m22"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462440966592</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m23"><b>afterMethod</b>  </a></td><td class="numi">2</td><td>1462440966590</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m24"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1462440966592</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m25"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td>1462440966603</td><td class="numi">0</td></tr>
+<tr><th colspan="4">LoginSuiteAdmin &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</td><td><a href="#m26"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440966586</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m27"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440966586</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m28"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440966586</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m29"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440966586</td><td class="numi">9</td></tr>
+<tr><th colspan="4">LoginSuiteAdmin &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin</td><td><a href="#m30"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440859290</td><td class="numi">78631</td></tr><tr class="passedodd"><td><a href="#m31"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440859290</td><td class="numi">78631</td></tr><tr class="passedodd"><td><a href="#m32"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440859290</td><td class="numi">78631</td></tr><tr class="passedodd"><td><a href="#m33"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462440859290</td><td class="numi">78631</td></tr>
+<tr><th colspan="4">LoginSuiteESSUser &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser</td><td><a href="#m34"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462441001603</td><td class="numi">69236</td></tr><tr class="passedodd"><td><a href="#m35"><b>testLoginAdmin</b>  </a></td><td class="numi">2</td><td>1462441001603</td><td class="numi">69236</td></tr>
+</table>
+<h1>TestFnameEmpty</h1>
+<h2 id="m1">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:beforeMethod</h2>
+<div style="padding-left:3em">
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;rafi-PC&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 0227190d-f35f-40fa-8068-705610602fdf
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+<br/>at com.ablelogix.maven.MavenDataDriven.webdriver.WebDriverInteraction.launch_browser(WebDriverInteraction.java:52)
+<br/>at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.beforeMethod(TestFnameEmpty.java:46)
+<br/>31 lines not shown
+<p>Caused by Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+<br/>at com.ablelogix.maven.MavenDataDriven.webdriver.WebDriverInteraction.launch_browser(WebDriverInteraction.java:52)
+<br/>at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.beforeMethod(TestFnameEmpty.java:46)
+<br/>31 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+<br/>at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+<br/>at java.net.PlainSocketImpl.connect(Unknown Source)
+<br/>at java.net.SocksSocketImpl.connect(Unknown Source)
+<br/>at java.net.Socket.connect(Unknown Source)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+<br/>at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+<br/>at com.ablelogix.maven.MavenDataDriven.webdriver.WebDriverInteraction.launch_browser(WebDriverInteraction.java:52)
+<br/>at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.beforeMethod(TestFnameEmpty.java:46)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:fnameEmpty</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>admin</td>
+<td>admin</td>
+<td> </td>
+<td>shaik</td>
+<td>HQ - CA, USA</td>
+<td>Y</td>
+<td>null</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.fnameEmpty(TestFnameEmpty.java:29)
+<br/>29 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:afterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:afterClass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:fnameEmpty</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>3</td>
+<td>admin</td>
+<td>admin</td>
+<td>rafi</td>
+<td>shaik</td>
+<td>-- Select --</td>
+<td>Y</td>
+<td>null</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty:fnameEmpty</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>2</td>
+<td>admin</td>
+<td>admin</td>
+<td>rafi</td>
+<td>  </td>
+<td>HQ - CA, USA</td>
+<td>Y</td>
+<td>null</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>LoginSuiteAdmin</h1>
+<h2 id="m8">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:beforeMethod</h2>
+<div style="padding-left:3em">
+<p>Window not found. The browser window may have been closed.
+Command duration or timeout: 500 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;rafi-PC&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 39b2d59a-20c3-4e0f-953c-923367adab70
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at com.ablelogix.maven.MavenDataDriven.webdriver.WebDriverInteraction.launch_browser(WebDriverInteraction.java:51)
+<br/>at com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin.beforeMethod(LoginSuiteAdmin.java:119)
+<br/>31 lines not shown
+<p>Caused by Window not found. The browser window may have been closed.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;rafi-PC&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12719)
+<br/>at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+<br/>at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+<br/>at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+<br/>at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+<br/>at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+<br/>at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+<br/>at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+<br/>at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+<br/>at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+<br/>at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:testLoginAdmin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>4</td>
+<td>admin</td>
+<td>admin</td>
+<td>Welcome Admin</td>
+<td>Y</td>
+<td>Passed TestData</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:testLoginAdmin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>3</td>
+<td>admin</td>
+<td>admin</td>
+<td>Welcome Admin</td>
+<td>Y</td>
+<td>Passed TestData</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:testLoginAdmin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>2</td>
+<td>admin</td>
+<td>admin</td>
+<td>Welcome Admin</td>
+<td>Y</td>
+<td>Passed TestData</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin:testLoginAdmin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>admin</td>
+<td>admin</td>
+<td>Welcome Admin</td>
+<td>Y</td>
+<td>Passed TestData</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>LoginSuiteESSUser</h1>
+<h2 id="m17">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser:testLoginAdmin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>linda.anderson</td>
+<td>linda.anderson</td>
+<td>Welcome Linda</td>
+<td>Y</td>
+<td>Passed TestData</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser:testLoginAdmin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>2</td>
+<td>linda.anderson</td>
+<td>linda.anderson</td>
+<td>Welcome Linda</td>
+<td>Y</td>
+<td>Passed TestData</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

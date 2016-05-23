@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [LoginSuite]">
+  <test name="LoginSuiteAdmin(failed)">
+    <classes>
+      <class name="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin">
+        <methods>
+          <include name="testLoginAdmin"/>
+          <include name="init"/>
+          <include name="initSetup"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin -->
+      <class name="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="initSetup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser -->
+    </classes>
+  </test> <!-- LoginSuiteAdmin(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AddEmpSuite">
+<test name="TestFnameEmpty">
+	 <classes>
+        <class name="com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty" />  
+    </classes>
+</test>
+</suite>

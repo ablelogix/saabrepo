@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginSuite">
+<test name="LoginSuiteAdmin">
+	 <classes>
+        <class name="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin" />  
+    </classes>
+    
+</test>
+
+<test name="LoginSuiteESSUser">
+	 <classes>
+        <class name="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser" />  
+    </classes>
+    
+</test>
+
+</suite>

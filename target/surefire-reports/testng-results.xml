@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM" duration-ms="0" started-at="2016-05-05T09:41:46Z" finished-at="2016-05-05T09:41:46Z">
+    <groups>
+    </groups>
+  </suite> <!-- OrangeHRM -->
+  <suite name="AddEmpSuite" duration-ms="232857" started-at="2016-05-05T09:37:51Z" finished-at="2016-05-05T09:41:44Z">
+    <groups>
+    </groups>
+    <test name="TestFnameEmpty" duration-ms="232857" started-at="2016-05-05T09:37:51Z" finished-at="2016-05-05T09:41:44Z">
+      <class name="com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="beforeSuite" is-config="true" duration-ms="305" started-at="2016-05-05T15:07:50Z" finished-at="2016-05-05T15:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-05-05T15:07:51Z" finished-at="2016-05-05T15:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="beforeClass" is-config="true" duration-ms="7" started-at="2016-05-05T15:07:51Z" finished-at="2016-05-05T15:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="beforeMethod" is-config="true" duration-ms="33622" started-at="2016-05-05T15:07:51Z" finished-at="2016-05-05T15:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="fnameEmpty(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="fnameEmpty" duration-ms="45796" started-at="2016-05-05T15:08:25Z" data-provider="dp" finished-at="2016-05-05T15:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[shaik]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HQ - CA, USA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.fnameEmpty(TestFnameEmpty.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnameEmpty -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="afterMethod" is-config="true" duration-ms="103" started-at="2016-05-05T15:09:10Z" finished-at="2016-05-05T15:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="beforeMethod" is-config="true" duration-ms="40329" started-at="2016-05-05T15:09:11Z" finished-at="2016-05-05T15:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fnameEmpty(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="fnameEmpty" duration-ms="74167" started-at="2016-05-05T15:09:51Z" data-provider="dp" finished-at="2016-05-05T15:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rafi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HQ - CA, USA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnameEmpty -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="afterMethod" is-config="true" duration-ms="59" started-at="2016-05-05T15:11:05Z" finished-at="2016-05-05T15:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-05T15:11:05Z" finished-at="2016-05-05T15:11:05Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rafi-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 0227190d-f35f-40fa-8068-705610602fdf
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rafi-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 0227190d-f35f-40fa-8068-705610602fdf
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at com.ablelogix.maven.MavenDataDriven.webdriver.WebDriverInteraction.launch_browser(WebDriverInteraction.java:52)
+	at com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty.beforeMethod(TestFnameEmpty.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 48 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="fnameEmpty(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="fnameEmpty" duration-ms="2" started-at="2016-05-05T15:11:44Z" data-provider="dp" finished-at="2016-05-05T15:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rafi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[shaik]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-- Select --]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnameEmpty -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-05T15:11:44Z" finished-at="2016-05-05T15:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-05T15:11:44Z" finished-at="2016-05-05T15:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty@2ee28063]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-05T15:11:44Z" finished-at="2016-05-05T15:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ablelogix.maven.MavenDataDriven.testcases.addemp.TestFnameEmpty -->
+    </test> <!-- TestFnameEmpty -->
+  </suite> <!-- AddEmpSuite -->
+  <suite name="LoginSuite" duration-ms="267176" started-at="2016-05-05T09:33:23Z" finished-at="2016-05-05T09:37:50Z">
+    <groups>
+    </groups>
+    <test name="LoginSuiteAdmin" duration-ms="162822" started-at="2016-05-05T09:33:23Z" finished-at="2016-05-05T09:36:06Z">
+      <class name="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin">
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="initSetup" is-config="true" duration-ms="490" started-at="2016-05-05T15:03:23Z" finished-at="2016-05-05T15:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="init" is-config="true" duration-ms="38" started-at="2016-05-05T15:03:24Z" finished-at="2016-05-05T15:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="beforeMethod" is-config="true" duration-ms="54650" started-at="2016-05-05T15:03:24Z" finished-at="2016-05-05T15:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginAdmin(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="testLoginAdmin" duration-ms="18522" started-at="2016-05-05T15:04:19Z" data-provider="dp" finished-at="2016-05-05T15:04:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Passed TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="afterMethod" is-config="true" duration-ms="1282" started-at="2016-05-05T15:04:37Z" finished-at="2016-05-05T15:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="beforeMethod" is-config="true" duration-ms="42968" started-at="2016-05-05T15:04:39Z" finished-at="2016-05-05T15:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginAdmin(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="testLoginAdmin" duration-ms="15858" started-at="2016-05-05T15:05:22Z" data-provider="dp" finished-at="2016-05-05T15:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Passed TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="afterMethod" is-config="true" duration-ms="102" started-at="2016-05-05T15:05:37Z" finished-at="2016-05-05T15:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-05T15:05:38Z" finished-at="2016-05-05T15:05:38Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 500 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rafi-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 39b2d59a-20c3-4e0f-953c-923367adab70
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 500 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rafi-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 39b2d59a-20c3-4e0f-953c-923367adab70
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.ablelogix.maven.MavenDataDriven.webdriver.WebDriverInteraction.launch_browser(WebDriverInteraction.java:51)
+	at com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin.beforeMethod(LoginSuiteAdmin.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'rafi-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12719)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/rafi/AppData/Local/Temp/anonymous66719153505439973webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testLoginAdmin(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="testLoginAdmin" duration-ms="2" started-at="2016-05-05T15:06:06Z" data-provider="dp" finished-at="2016-05-05T15:06:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Passed TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-05T15:06:06Z" finished-at="2016-05-05T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-05T15:06:06Z" finished-at="2016-05-05T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testLoginAdmin(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="testLoginAdmin" duration-ms="2" started-at="2016-05-05T15:06:06Z" data-provider="dp" finished-at="2016-05-05T15:06:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Passed TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-05T15:06:06Z" finished-at="2016-05-05T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin@5f309025]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-05-05T15:06:06Z" finished-at="2016-05-05T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteAdmin -->
+    </test> <!-- LoginSuiteAdmin -->
+    <test name="LoginSuiteESSUser" duration-ms="104025" started-at="2016-05-05T09:36:06Z" finished-at="2016-05-05T09:37:50Z">
+      <class name="com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="beforeSuite" is-config="true" duration-ms="4975" started-at="2016-05-05T15:03:18Z" finished-at="2016-05-05T15:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="initSetup" is-config="true" duration-ms="618" started-at="2016-05-05T15:06:06Z" finished-at="2016-05-05T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="init" is-config="true" duration-ms="2" started-at="2016-05-05T15:06:07Z" finished-at="2016-05-05T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="beforeMethod" is-config="true" duration-ms="33874" started-at="2016-05-05T15:06:07Z" finished-at="2016-05-05T15:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginAdmin(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="testLoginAdmin" duration-ms="12551" started-at="2016-05-05T15:06:41Z" data-provider="dp" finished-at="2016-05-05T15:06:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Linda]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Passed TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="afterMethod" is-config="true" duration-ms="282" started-at="2016-05-05T15:06:54Z" finished-at="2016-05-05T15:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="beforeMethod" is-config="true" duration-ms="45752" started-at="2016-05-05T15:06:54Z" finished-at="2016-05-05T15:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginAdmin(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="testLoginAdmin" duration-ms="10650" started-at="2016-05-05T15:07:40Z" data-provider="dp" finished-at="2016-05-05T15:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Linda]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Passed TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="afterMethod" is-config="true" duration-ms="110" started-at="2016-05-05T15:07:50Z" finished-at="2016-05-05T15:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser@ac5ba87]" name="closeBrowser" is-config="true" duration-ms="11" started-at="2016-05-05T15:07:50Z" finished-at="2016-05-05T15:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ablelogix.maven.MavenDataDriven.testcases.login.LoginSuiteESSUser -->
+    </test> <!-- LoginSuiteESSUser -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
